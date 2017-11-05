@@ -40,5 +40,6 @@ def play(a)
   i=1
   until i === 9
     turn(a)
+    i+=1
   end
 end
