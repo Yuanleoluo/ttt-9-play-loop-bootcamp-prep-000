@@ -37,5 +37,8 @@ end
 
 # Define your play method below
 def play(a)
-  
+  i=1
+  until i === 9
+    turn(a)
+  end
 end
